@@ -1,11 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./Navbar";
-import Home from "./Home";
-import Cart from "./Cart";
-import Checkout from "./Checkout";
-import Success from "./Success";
-import { CartProvider } from "./CartContext";
-import Contact from "./Contact";
+import Navbar from "../components/Navbar";
+import Home from "../components/Home";
+import Cart from "../components/Cart";
+import Checkout from "../components/Checkout";
+import Success from "../components/Success";
+import { CartProvider } from "../components/CartContext";
+import Contact from "../components/Contact";
+
+import products from "../components/Products";
 
 export default function App() {
   return (
@@ -18,6 +20,7 @@ export default function App() {
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/success" element={<Success />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Products" element={<products />} />
 
         </Routes>
       </BrowserRouter>

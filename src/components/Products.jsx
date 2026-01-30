@@ -1,5 +1,5 @@
-export const products = [
-  { id: 1, name: "iPhone 14", brand: "Apple", price: 69999 ,image: "/images/apple1.jpg"},
+const products = [
+    { id: 1, name: "iPhone 14", brand: "Apple", price: 69999 ,image: "/images/apple1.jpg"},
   { id: 2, name: "iPhone 13", brand: "Apple", price: 59999 ,image: "/images/apple2.jpg" },
   { id: 3, name: "iPhone 12", brand: "Apple", price: 49999 ,image: "/images/apple3.jpg" },
   { id: 4, name: "Samsung S23", brand: "Samsung", price: 65999  ,image: "/images/sam1.jpg" },
@@ -58,4 +58,6 @@ export const products = [
   { id: 48, name: "Oppo K11x", brand: "Oppo", price: 20999, image: "/images/Oppo K11x.jpg" },
   { id: 49, name: "OnePlus 10R", brand: "OnePlus", price: 38999, image: "/images/OnePlus 10R.jpg" },
   { id: 50, name: "Nothing Phone Lite", brand: "Nothing", price: 18999, image: "/images/Nothing Phone Lite.jpg" },
-];
+  ];
+
+export default products;
